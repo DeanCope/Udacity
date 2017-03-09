@@ -46,6 +46,7 @@ extension ViewController: UITextFieldDelegate {
     }
 }
 
+// MARK: - "Pure" functions, not part of the ViewController class
 func shortNameFromName(name: String) -> String {
     
     let name = name.lowercased()
