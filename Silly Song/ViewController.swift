@@ -29,13 +29,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         nameField.delegate = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
 // MARK: - UITextFieldDelegate

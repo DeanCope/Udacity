@@ -28,12 +28,12 @@
                                     <constraint firstAttribute="height" constant="127" id="4vF-RC-iQ8"/>
                                     <constraint firstAttribute="width" constant="198" id="YBW-h6-Al6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="23"/>
+                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OiT-4U-QpR">
-                                <rect key="frame" x="16" y="184" width="343" height="30"/>
+                                <rect key="frame" x="16" y="155" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" returnKeyType="done"/>
@@ -43,7 +43,7 @@
                                 </connections>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="S1I-7y-t5n">
-                                <rect key="frame" x="16" y="269" width="343" height="114"/>
+                                <rect key="frame" x="16" y="193" width="343" height="114"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="114" id="Pxb-KT-V3G"/>
@@ -55,14 +55,16 @@
                         </subviews>
                         <color key="backgroundColor" red="0.31107128750000002" green="0.38287876050000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="S1I-7y-t5n" firstAttribute="top" secondItem="OiT-4U-QpR" secondAttribute="bottom" constant="55" id="4EG-LW-3Rw"/>
-                            <constraint firstItem="OiT-4U-QpR" firstAttribute="top" secondItem="f7q-sW-Apd" secondAttribute="bottom" constant="37" id="4ya-s7-xrZ"/>
+                            <constraint firstItem="S1I-7y-t5n" firstAttribute="top" secondItem="OiT-4U-QpR" secondAttribute="bottom" constant="8" symbolic="YES" id="4EG-LW-3Rw"/>
+                            <constraint firstItem="OiT-4U-QpR" firstAttribute="top" secondItem="f7q-sW-Apd" secondAttribute="bottom" constant="8" symbolic="YES" id="4ya-s7-xrZ"/>
                             <constraint firstItem="S1I-7y-t5n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Nl-ot-gJ4"/>
                             <constraint firstItem="OiT-4U-QpR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A9z-zR-wOk"/>
                             <constraint firstAttribute="leadingMargin" secondItem="OiT-4U-QpR" secondAttribute="leading" id="DNi-qu-OwZ"/>
                             <constraint firstItem="f7q-sW-Apd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FFc-t9-FY5"/>
+                            <constraint firstItem="S1I-7y-t5n" firstAttribute="leading" secondItem="OiT-4U-QpR" secondAttribute="leading" id="XSp-ag-onn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="OiT-4U-QpR" secondAttribute="trailing" id="t4I-gC-vbh"/>
                             <constraint firstItem="f7q-sW-Apd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="tes-he-0Cb"/>
+                            <constraint firstItem="S1I-7y-t5n" firstAttribute="trailing" secondItem="OiT-4U-QpR" secondAttribute="trailing" id="zLE-7B-dnX"/>
                         </constraints>
                     </view>
                     <connections>
